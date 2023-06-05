@@ -54,7 +54,8 @@ void main(){
   print('--x = ${--x}');// x = x - 1 = 101 - 1= 100
   print(x++); // x = 100  background  x = 101 will be stored  (x+1 = 100+1 = 101 )
 
-  ///6. typetest operator   is  ,  is!
+  ///6.
+  print("typetest operator   is  ,  is!") ;
   var name = "AlAN";
   print(name is! String);
   print(name is int);
@@ -63,8 +64,8 @@ void main(){
   ///7. bitwise and shift operator- to perform operations in binary values (0's and 1's)
 
   ///8. Conditional/ ternary operator   syntax : condition ? true statement : false statement;
-  int age = 20;
-  var result = age >= 18 ? "Eligible to vote" : false;
+  int age = 2;
+  var result = age >= 18 ? "Eligible to vote" : "not";
   print(result);
 
 

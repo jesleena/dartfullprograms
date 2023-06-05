@@ -1,4 +1,5 @@
 //double ended queue can add and remove values from both side
+
 import 'dart:collection';
 void main(){
   List<String> l1 = []; // store string values only
@@ -26,5 +27,8 @@ void main(){
   q3.forEach((element) {
     print(element);
   });
+  for(dynamic element in q3){
+    print(element);
+  }
 
 }

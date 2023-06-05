@@ -15,6 +15,7 @@ class Operation{
 void main(){
   Operation obj = Operation();
   obj.add();
+  print(obj.a);
   /// function call -> objectname.functionname();  (if the function is inside the class obj is needed to call that function)
   // print(c);      // this will show an error since is is not defined inside main function
   //print(obj.c); // this will also show an error since c is not an instance variable

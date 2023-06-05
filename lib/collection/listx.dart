@@ -3,9 +3,9 @@ void main(){
   /// its index value  index value always range from 0 to listlength - 1
 
   /// 1. Literal method
-  List  x      = [];
-  var   y      = [];
-  List  z      = [1,2,"hello","hi",5.6];
+ // List  x      = [];
+ // var   y      = [];
+  //List  z      = [1,2,"hello","hi",5.6];
   // 0 1 2 3 4  - indices
   List l1 = [1,2,3,4,5];  // length is 5 index range from 0 to 4
   l1.add(10);             // 10 added to th 5th index
@@ -51,7 +51,7 @@ void main(){
   ///5 .List.unmodifiable(Iterable elements)
   var l5= List.unmodifiable(l3);
   //l5[2] = 10000;
-   //l5.addAll(['a','f','h']);
+  // l5.addAll(['a','f','h']);
   print("l5 = $l5");
 
   ///6. List.filled( int length ,E fill ,{bool growable = false} )
